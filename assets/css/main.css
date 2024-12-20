@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    margin: auto 5%;
+    text-align: center;
+}
+.row{
+    display: flex;
+        
+}
+.col-4{
+    flex: 0 0 calc(100%/12*4);
+    padding: 4%;
+}
